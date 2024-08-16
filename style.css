@@ -70,6 +70,38 @@ section {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Checklist Image Styles */
+
+.checklist-image {
+    width: 100%;
+    max-width: 300px;
+    /* Adjust the max-width as needed */
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+
+/* Responsive Grid for Images */
+
+.checklist-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .checklist-image {
+        max-width: 100%;
+        /* Full width on smaller screens */
+    }
+}
+
 section h2 {
     color: #0073e6;
     text-align: center;
